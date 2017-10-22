@@ -4,7 +4,7 @@ A simple replacement for `perf script report stackcollapse` or `stackcollapse-pe
 that supports inlined functions. It's useful for profiling programs in C++,
 because they usually have tons of inlined code.
 
-It's supposed to be used to build [flamegraphs](https://github.com/brendangregg/FlameGraph).
+This script is supposed to be used to build [flamegraphs](https://github.com/brendangregg/FlameGraph).
 
 How to use
 ==========
