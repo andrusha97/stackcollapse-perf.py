@@ -9,7 +9,7 @@ This script is supposed to be used to build [flamegraphs](https://github.com/bre
 How to use
 ==========
 ```
-perf record -F 99 -p 1234 -g -- sleep 60
+perf record -F 99 -p 1234 --call-graph dwarf sleep 60
 perf script --inline | ./stackcollapse-perf.py | /path/to/flamegraph.pl > graph.svg
 ```
 
