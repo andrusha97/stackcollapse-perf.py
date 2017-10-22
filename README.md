@@ -1,6 +1,6 @@
 stackcollapse-perf.py
 =====================
-A simple replacement for `perf script report stackcollapse` or `./stackcollapse-perf.pl`
+A simple replacement for `perf script report stackcollapse` or `stackcollapse-perf.pl` (from Flamegraph)
 that supports inlined functions. It's useful for profiling programs in C++,
 because they usually have tons of inlined code.
 
